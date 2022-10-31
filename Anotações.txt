@@ -1,0 +1,50 @@
+Dependências:
+
+* npm i styled-components
+* npm i @types/styled-components -D (desenvolvimento)
+* npm i eslint -D
+* npm i @rocketseat/eslint-config -D
+* npm i react-router-dom
+* npm i phosphor-react
+
+---------------------------------------------
+d.ts: Só haveram códigos de definição de tipos do typescript.
+
+Arquivos com a extensão d.ts, exemplo: styled.d.ts são arquivos que só poderão conter código puramente typescript.
+--------------------------------------------
+
+Um pouco sobre Styled-Components:
+
+para criar um arquivo global, utilizar o import { createGlobalStyle }, exempo:
+
+export const GlobalStyle  = createGlobalStyle `
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+  }
+`;
+
+É importante que o "GlobalStyle" esteja importado dentro do ThemeProvider
+------------------------------------------------
+
+ESLINT:
+
+criar um arquivo ".eslintrc.json" na raiz do projeto, e colocar o seguinte scropt:
+
+{
+   "extends": "@rocketseat/eslint-config/react"
+}
+
+O script:
+npx eslint src --ext .ts, .tsx --fix
+
+serve para padronizar todo o meu projeto de uma vez.
+----------------------------------------------------
+
+<Outlet /> É um espaço para ser inserido um conteúdo ou Layout especifico, que quando alterado, só mudará o que estiver dentro dessa tag, exemplo: uma mudança de página ou conteúdos da página.
+----------------------------------------------------
+
+Utilizar o NavLink (tag que vem do pacote react-router-dom) no lugar da tag "a", subistituir o parâmetro "href" por "to".
+
+Ao utilizar o NavLink, no HTML é inserido uma classe "active" e um parâmetro (aria-current="page").
