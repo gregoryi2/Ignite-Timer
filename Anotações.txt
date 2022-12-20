@@ -48,3 +48,7 @@ serve para padronizar todo o meu projeto de uma vez.
 Utilizar o NavLink (tag que vem do pacote react-router-dom) no lugar da tag "a", subistituir o parâmetro "href" por "to".
 
 Ao utilizar o NavLink, no HTML é inserido uma classe "active" e um parâmetro (aria-current="page").
+-----------------------------------------------------
+<datalist> = Lista de sugestôes para um input (inclusive é colocado após um input)
+
+Tag nativa do HTML.
