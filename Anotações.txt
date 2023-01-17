@@ -6,6 +6,10 @@ Dependências:
 * npm i @rocketseat/eslint-config -D
 * npm i react-router-dom
 * npm i phosphor-react
+* npm i react-hook-form
+* npm i zod
+* npm i @hookform/resolvers
+* npm i date-fns
 
 ---------------------------------------------
 d.ts: Só haveram códigos de definição de tipos do typescript.
@@ -52,3 +56,18 @@ Ao utilizar o NavLink, no HTML é inserido uma classe "active" e um parâmetro (
 <datalist> = Lista de sugestôes para um input (inclusive é colocado após um input)
 
 Tag nativa do HTML.
+-----------------------------------------------------
+Quando uma biblioteca não tiver um export deafult, utilizar a seguinte sintaxe:
+
+import * as NOME-DA-BIBLIOTECA from 'caminho'
+-----------------------------------------------------
+Sempre que se fizer necessário utilizar uma variável como tipagem no typescript, usar o "typeof", exemplo:
+
+type NewCycleFormData = zod.infer<typeof NOME-DA-VARIÁVEL>
+-----------------------------------------------------
+useEffect(() => {função-para-ser-execudada},[variável-a-ser-monitorada])
+
+Serve para monitorar uma variável e executar uma ação após a variável ser lida ou executada.
+O useEffect será executado em dois momentos: o primeiro é quando a página for carregada e a variável for lida, o segundo é quando uma função que foi passada no useEffect para essa variável for executada.
+
+useEffect também pode conter um return () => {} que é no estilo de função.
