@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/gregoryi2/dtmoney/master/public/favicon.png"> dtmoney
+# <img src="https://raw.githubusercontent.com/gregoryi2/dtmoney/master/public/favicon.png"> Ignite Timer
 Uma aplicação de Timer Pomodoro feito com React e Typescript.
 
 O desenvolvimento deste aplicativo faz parte do exercício do Bootcamp da Rocketseat.
@@ -28,8 +28,8 @@ O desenvolvimento deste aplicativo faz parte do exercício do Bootcamp da Rocket
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/gregoryi2/dtmoney/master/Print.png">
+<img src="https://raw.githubusercontent.com/gregoryi2/Ignite-Timer/master/print%201.png">
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/gregoryi2/dtmoney/master/Print%202.png">
+<img src="https://raw.githubusercontent.com/gregoryi2/Ignite-Timer/master/Print%202.png">
