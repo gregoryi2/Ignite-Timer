@@ -71,3 +71,9 @@ Serve para monitorar uma variável e executar uma ação após a variável ser l
 O useEffect será executado em dois momentos: o primeiro é quando a página for carregada e a variável for lida, o segundo é quando uma função que foi passada no useEffect para essa variável for executada.
 
 useEffect também pode conter um return () => {} que é no estilo de função.
+-----------------------------------------------------
+NOVO MODELO DE IF:
+
+{condição && código a ser execudado}
+
+Esse modelo de if é utilizado quando e somente uma condição for passada, assim, o código só será executado se a condição for verdadeira.
